@@ -1,0 +1,21 @@
+- name: "Calphad-Demo"
+  tagline: "CALPHAD-integrated Cahn–Hilliard / KKS phase-field demo (Fe–Cr)"
+  github: "https://github.com/arjunvarmar/Calphad-Demo"
+  docs: "#"          # PLACEHOLDER
+  tutorials: "#"     # PLACEHOLDER
+  benchmarks: "#"    # PLACEHOLDER
+  language: "C"
+- name: "PLACEHOLDER — PFDD toolkit"
+  tagline: "PLACEHOLDER — one-line description"
+  github: "#"
+  docs: "#"
+  tutorials: "#"
+  benchmarks: "#"
+  language: "C++"
+- name: "PLACEHOLDER — PFC solver"
+  tagline: "PLACEHOLDER — one-line description"
+  github: "#"
+  docs: "#"
+  tutorials: "#"
+  benchmarks: "#"
+  language: "Python"

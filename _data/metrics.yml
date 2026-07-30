@@ -1,0 +1,17 @@
+# Homepage metrics strip — update numbers as they change
+- value: "12"          # PLACEHOLDER
+  suffix: "+"
+  label: "Publications"
+  icon: "paper"
+- value: "4"            # PLACEHOLDER
+  suffix: ""
+  label: "Software packages"
+  icon: "software"
+- value: "8"            # PLACEHOLDER
+  suffix: "+"
+  label: "Years in research"
+  icon: "years"
+- value: "500"          # PLACEHOLDER — cumulative CPU/GPU core-hours, in thousands
+  suffix: "k+"
+  label: "CPU hours simulated"
+  icon: "cpu"

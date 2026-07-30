@@ -1,0 +1,39 @@
+# Skills organised by CAPABILITY, not by programming language
+- category: "Physics-Based Simulation"
+  icon: "simulation"
+  items:
+    - "Phase-field modelling (Cahn–Hilliard, Allen–Cahn, KKS)"
+    - "Phase-field crystal (PFC) modelling"
+    - "Phase-field dislocation dynamics (PFDD)"
+    - "Discrete dislocation dynamics (DDD)"
+    - "Finite-difference / spectral (FFT) solvers"
+- category: "CALPHAD & Thermodynamics"
+  icon: "calphad"
+  items:
+    - "CALPHAD database integration (Thermo-Calc, pycalphad)"
+    - "Coupled thermodynamic–kinetic simulation"
+    - "Multicomponent free-energy landscapes"
+- category: "High-Performance Computing"
+  icon: "hpc"
+  items:
+    - "MPI / domain-decomposed parallel solvers"
+    - "National HPC cluster workflows (SLURM)"
+    - "Scaling studies & performance profiling"
+- category: "GPU Computing"
+  icon: "gpu"
+  items:
+    - "CUDA-accelerated field solvers"
+    - "GPU-based FFT elastic stress computation"
+    - "Mixed CPU/GPU simulation pipelines"
+- category: "Scientific Machine Learning"
+  icon: "ml"
+  items:
+    - "Surrogate / reduced-order models for microstructure evolution"
+    - "ML-accelerated CALPHAD free-energy fitting"
+    - "Physics-informed and data-driven closures"
+- category: "Scientific Software Development"
+  icon: "software"
+  items:
+    - "Research code architecture & maintenance"
+    - "Python / C / C++ scientific computing"
+    - "Reproducible pipelines, testing, documentation"

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{% include head.html %}
+</head>
+<body>
+{% include nav.html %}
+<main>
+{{ content }}
+</main>
+{% include footer.html %}
+<script src="{{ '/assets/js/simulations.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+{% if page.url == '/' %}<script src="{{ '/assets/js/hero-canvas.js' | relative_url }}"></script>{% endif %}
+{% if page.url == '/demos/' %}<script src="{{ '/assets/js/demos.js' | relative_url }}"></script>{% endif %}
+</body>
+</html>

@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<header class="page-header">
+  <div class="container">
+    {% if page.eyebrow %}<div class="eyebrow">{{ page.eyebrow }}</div>{% endif %}
+    <h1>{{ page.title }}</h1>
+    {% if page.description %}<p>{{ page.description }}</p>{% endif %}
+  </div>
+</header>
+<div class="container">
+  {% include divider.html %}
+</div>
+<div class="section-tight">
+  <div class="container">
+    {{ content }}
+  </div>
+</div>

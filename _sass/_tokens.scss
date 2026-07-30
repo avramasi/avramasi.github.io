@@ -1,0 +1,65 @@
+/* Design tokens ------------------------------------------------------- */
+
+:root{
+  /* Dark mode (default) — deep graphite lab console */
+  --bg:            #0B0E14;
+  --bg-elevated:   #121826;
+  --bg-elevated-2: #171f30;
+  --surface-glass: rgba(255,255,255,0.045);
+  --surface-glass-strong: rgba(255,255,255,0.07);
+  --border:        rgba(255,255,255,0.09);
+  --border-strong: rgba(255,255,255,0.16);
+
+  --text:          #E8EBF1;
+  --text-muted:    #98A2B7;
+  --text-faint:    #616B80;
+
+  /* phase-field inspired accents */
+  --accent-teal:   #49D4C4;   /* concentration / phase-boundary */
+  --accent-amber:  #F0A868;   /* dendrite growth / thermal gradient */
+  --accent-violet: #8B93F8;   /* links / tags */
+  --accent-rose:   #EF7E9A;   /* alerts / highlight */
+
+  --accent:        var(--accent-teal);
+  --accent-2:      var(--accent-amber);
+
+  --shadow-soft: 0 8px 30px rgba(0,0,0,0.35);
+  --shadow-lift: 0 16px 48px rgba(0,0,0,0.45);
+
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+
+  --font-display: "Fraunces", "Georgia", serif;
+  --font-body: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
+
+  --container: 1180px;
+  --nav-h: 72px;
+}
+
+html[data-theme="light"]{
+  --bg:            #F6F5F0;
+  --bg-elevated:   #FFFFFF;
+  --bg-elevated-2: #FBFAF6;
+  --surface-glass: rgba(255,255,255,0.55);
+  --surface-glass-strong: rgba(255,255,255,0.8);
+  --border:        rgba(20,22,30,0.10);
+  --border-strong: rgba(20,22,30,0.18);
+
+  --text:          #171A22;
+  --text-muted:    #4E5566;
+  --text-faint:    #838C9E;
+
+  --accent-teal:   #0F9C8C;
+  --accent-amber:  #C97A34;
+  --accent-violet: #5C63D6;
+  --accent-rose:   #C4527A;
+
+  --shadow-soft: 0 8px 30px rgba(30,30,40,0.08);
+  --shadow-lift: 0 16px 48px rgba(30,30,40,0.12);
+}
+
+@media (prefers-reduced-motion: reduce){
+  *{ animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; scroll-behavior: auto !important; }
+}

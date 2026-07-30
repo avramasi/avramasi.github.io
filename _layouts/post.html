@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<header class="page-header">
+  <div class="container" style="max-width: 780px;">
+    <div class="eyebrow">Blog</div>
+    <h1>{{ page.title }}</h1>
+    <div class="post-date">{{ page.date | date: "%d %B %Y" }}{% if page.topic %} · {{ page.topic }}{% endif %}</div>
+  </div>
+</header>
+<div class="section">
+  <div class="container" style="max-width: 780px;">
+    <article>
+      {{ content }}
+    </article>
+    <hr>
+    <p><a href="{{ '/blog/' | relative_url }}">&larr; Back to all posts</a></p>
+  </div>
+</div>

@@ -1,0 +1,60 @@
+- slug: "calphad-demo"
+  title: "CALPHAD-Coupled Phase-Field Demo"
+  summary: "Pure Cahn–Hilliard and KKS-variant phase-field models with CALPHAD-integrated chemical free energies, demonstrated on an Fe–Cr binary."
+  image: "/assets/img/projects/calphad-demo.png"        # PLACEHOLDER — add simulation image
+  animation: "/assets/img/projects/calphad-demo.gif"     # PLACEHOLDER — add animation/GIF
+  technologies: ["C", "CALPHAD", "Phase-Field", "FFTW"]
+  github: "https://github.com/arjunvarmar/Calphad-Demo"
+  docs: "#"          # PLACEHOLDER
+  demo: "/demos/#cahn-hilliard"
+  status: "Active"
+- slug: "pfdd-stacking-faults"
+  title: "Phase-Field Dislocation Dynamics — Stacking Faults"
+  summary: "PFDD framework for computing equilibrium stacking-fault widths in FCC alloys, using generalised stacking-fault energies from DFT collaborators."
+  image: "/assets/img/projects/pfdd.png"                  # PLACEHOLDER
+  animation: "/assets/img/projects/pfdd.gif"              # PLACEHOLDER
+  technologies: ["C++", "PFDD", "DFT-coupling", "MPI"]
+  github: "#"        # PLACEHOLDER
+  docs: "#"          # PLACEHOLDER
+  demo: ""
+  status: "Published"
+- slug: "pfc-three-point"
+  title: "Three-Point Correlation Phase-Field Crystal Model"
+  summary: "Extension of the phase-field crystal (PFC) framework incorporating three-point correlation functions to study defect interactions in complex concentrated alloys."
+  image: "/assets/img/projects/pfc.png"                   # PLACEHOLDER
+  animation: "/assets/img/projects/pfc.gif"                # PLACEHOLDER
+  technologies: ["Python", "Spectral Methods", "PFC"]
+  github: "#"        # PLACEHOLDER
+  docs: "#"          # PLACEHOLDER
+  demo: ""
+  status: "Published"
+- slug: "numodis-slip-transfer"
+  title: "NUMODIS — Slip Transfer & FFT Elastic Stress"
+  summary: "Discrete dislocation dynamics contributions to NUMODIS: a slip-transfer algorithm and an FFT-based elastic stress solver (Discrete-Continuous Method)."
+  image: "/assets/img/projects/numodis.png"                # PLACEHOLDER
+  animation: "/assets/img/projects/numodis.gif"             # PLACEHOLDER
+  technologies: ["Fortran/C++", "DDD", "FFT"]
+  github: "#"        # PLACEHOLDER
+  docs: "https://www.researchgate.net/project/3D-Discrete-Dislocation-Dynamics-Simulations"
+  demo: ""
+  status: "Collaborative"
+- slug: "discontinuous-precipitation"
+  title: "Sharp-Interface Model of Discontinuous Precipitation"
+  summary: "Sharp phase-field formulation resolving the coupled cellular reaction front of discontinuous precipitation."
+  image: "/assets/img/projects/disc-precip.png"             # PLACEHOLDER
+  animation: "/assets/img/projects/disc-precip.gif"          # PLACEHOLDER
+  technologies: ["C++", "Sharp-Interface", "Phase-Field"]
+  github: "#"        # PLACEHOLDER
+  docs: "#"          # PLACEHOLDER
+  demo: ""
+  status: "In progress"
+- slug: "ai-surrogate-microstructure"
+  title: "ML Surrogates for Microstructure Evolution"
+  summary: "PLACEHOLDER — describe a scientific ML project: e.g. a neural surrogate that accelerates phase-field or CALPHAD calculations."
+  image: "/assets/img/projects/ml-surrogate.png"            # PLACEHOLDER
+  animation: "/assets/img/projects/ml-surrogate.gif"         # PLACEHOLDER
+  technologies: ["Python", "PyTorch", "Scientific ML"]
+  github: "#"        # PLACEHOLDER
+  docs: "#"          # PLACEHOLDER
+  demo: ""
+  status: "PLACEHOLDER"

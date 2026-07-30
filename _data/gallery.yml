@@ -1,0 +1,24 @@
+- title: "Spinodal Decomposition"
+  slug: "spinodal-decomposition"
+  description: "Cahn–Hilliard simulation of spinodal decomposition in a binary alloy."
+  image: "/assets/img/gallery/spinodal-decomposition.png"   # PLACEHOLDER
+- title: "Grain Growth"
+  slug: "grain-growth"
+  description: "Multi-phase-field simulation of curvature-driven grain growth."
+  image: "/assets/img/gallery/grain-growth.png"              # PLACEHOLDER
+- title: "Dendritic Solidification"
+  slug: "dendrites"
+  description: "Phase-field simulation of dendritic growth during solidification."
+  image: "/assets/img/gallery/dendrites.png"                 # PLACEHOLDER
+- title: "Phase-Field Dislocation Dynamics (PFDD)"
+  slug: "pfdd"
+  description: "Stacking-fault ribbon evolution from a PFDD simulation."
+  image: "/assets/img/gallery/pfdd.png"                      # PLACEHOLDER
+- title: "Phase-Field Crystal (PFC)"
+  slug: "pfc"
+  description: "Atomistic-density field from a phase-field crystal simulation showing defect structures."
+  image: "/assets/img/gallery/pfc.png"                       # PLACEHOLDER
+- title: "Elastic Fields"
+  slug: "elastic-fields"
+  description: "Elastic stress field around a dislocation / precipitate computed via FFT-based micromechanics."
+  image: "/assets/img/gallery/elastic-fields.png"            # PLACEHOLDER
