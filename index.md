@@ -15,8 +15,8 @@ description: >-
       <h1>Simulating how microstructure decides<br>whether a material <span class="accent">survives</span>.</h1>
       <p class="hero-lede">
         I build phase-field, CALPHAD-coupled, and scientific machine-learning models that
-        predict how phase transformations, dislocations, and defects evolve — from
-        spinodal decomposition to dendritic solidification — so materials can be designed
+        predict how microstructures evolve -- from phase transformations, dislocations, and other defects such as grain boundaries 
+         -- so that materials can be designed
         digitally before they're made physically.
       </p>
       <div class="cta-row">
