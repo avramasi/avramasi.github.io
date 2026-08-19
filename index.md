@@ -3,7 +3,7 @@ layout: default
 title: Home
 description: >-
   Arjun Varma R. — computational materials scientist specialising in
-  phase-field modelling, CALPHAD-coupled simulation, and scientific
+  deformation induced microstructure evolution and scientific
   machine learning for microstructure evolution.
 ---
 
@@ -14,10 +14,9 @@ description: >-
       <div class="hero-role mono">Computational Materials Scientist</div>
       <h1>Simulating how microstructure decides<br>whether a material <span class="accent">survives</span>.</h1>
       <p class="hero-lede">
-        I build phase-field, CALPHAD-coupled, and scientific machine-learning models that
+        I build compputational models at the meso- and micro-scale that
         predict how microstructures evolve -- from phase transformations, dislocations, and other defects such as grain boundaries 
-         -- so that materials can be designed
-        digitally before they're made physically.
+         -- so that materials can be designed digitally before they're made physically.
       </p>
       <div class="cta-row">
         <a class="btn btn-primary" href="{{ '/projects/' | relative_url }}">Projects</a>
@@ -84,8 +83,8 @@ description: >-
       </p>
       <p>
         Prior to Nancy, I was a postdoc with Prof. Conrard Feugmo at the University of
-        Waterloo, extending phase-field crystal models with three-point correlation
-        functions for complex concentrated alloys. I completed my PhD in Metallurgical
+        Waterloo, building phase field crystal models for binary systems, using individual 
+        density fields of atoms. I completed my PhD in Metallurgical
         Engineering and Materials Science at IIT Bombay, studying the effect of
         dislocations on phase transformations, with additional work in phase-field
         dislocation dynamics and discrete dislocation dynamics (NUMODIS, Grenoble).

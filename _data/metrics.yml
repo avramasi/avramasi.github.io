@@ -1,9 +1,9 @@
 # Homepage metrics strip — update numbers as they change
-- value: "12"          # PLACEHOLDER
+- value: "8"          # PLACEHOLDER
   suffix: "+"
   label: "Publications"
   icon: "paper"
-- value: "4"            # PLACEHOLDER
+- value: "3"            # PLACEHOLDER
   suffix: ""
   label: "Software packages"
   icon: "software"
