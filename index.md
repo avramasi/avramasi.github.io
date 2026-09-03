@@ -16,7 +16,7 @@ description: >-
       <p class="hero-lede">
         I build compputational models at the meso- and micro-scale that
         predict how microstructures evolve -- from phase transformations, dislocations, and other defects such as grain boundaries 
-         -- so that materials can be designed digitally before they're made physically.
+         -- with an ultimate goal of designing materials digitally before they're made physically.
       </p>
       <div class="cta-row">
         <a class="btn btn-primary" href="{{ '/projects/' | relative_url }}">Projects</a>
@@ -76,18 +76,27 @@ description: >-
       <div class="eyebrow">About</div>
       <h2>From mechanical engineering to computational materials science</h2>
       <p>
-        I am a mechanical engineer turned computational materials scientist, currently a
-        CNRS postdoctoral researcher with the Microstructures &amp; Stresses group at
-        Institut Jean Lamour, Nancy, working with Prof. Benoit Appolaire and Prof. Maeva
-        Cottura on sharp-interface phase-field models of discontinuous precipitation.
-      </p>
+      I am a computational materials scientist and mechanical engineer working at the
+      intersection of **phase-field modelling, microstructure evolution, and multiscale 
+      materials modelling**. I am currently a CNRS postdoctoral researcher in the
+      Microstructures & Stresses group at Institut Jean Lamour, Nancy, where I work with Prof.
+      Benoit Appolaire and Prof. Maeva Cottura on **sharp-interface phase-field models for
+      discontinuous precipitation**.
       <p>
-        Prior to Nancy, I was a postdoc with Prof. Conrard Feugmo at the University of
-        Waterloo, building phase field crystal models for binary systems, using individual 
-        density fields of atoms. I completed my PhD in Metallurgical
-        Engineering and Materials Science at IIT Bombay, studying the effect of
-        dislocations on phase transformations, with additional work in phase-field
-        dislocation dynamics and discrete dislocation dynamics (NUMODIS, Grenoble).
+      My research has evolved across several scales of materials modelling. During my
+      postdoctoral work at the University of Waterloo with Prof. Conrard Feugmo, I developed
+      **phase-field crystal models for binary systems**, explicitly describing the evolution
+      of individual atomic density fields. During my PhD in Metallurgical Engineering and
+      Materials Science at IIT Bombay, I investigated the **coupling between dislocations and
+      phase transformations**, complemented by work on **phase-field dislocation dynamics and
+      discrete dislocation dynamics**, including developments within the NUMODIS framework at
+      Grenoble.
+      <p>
+      Together, these experiences have shaped my research around a common objective:
+      **developing physically grounded computational models that connect atomic-scale
+      mechanisms to the evolution of microstructure and material properties across larger 
+      length and time scales.**
+
       </p>
       <a class="btn btn-outline" href="{{ '/research/' | relative_url }}">Read the full research vision →</a>
     </div>
