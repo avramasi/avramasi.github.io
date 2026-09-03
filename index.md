@@ -72,37 +72,51 @@ description: >-
 
 <section class="section">
   <div class="container two-col reveal">
+
     <div>
       <div class="eyebrow">About</div>
-      <h2>From mechanical engineering to computational materials science</h2>
-      <p>
-      I am a computational materials scientist and mechanical engineer working at the
-      intersection of **phase-field modelling, microstructure evolution, and multiscale 
-      materials modelling**. I am currently a CNRS postdoctoral researcher in the
-      Microstructures & Stresses group at Institut Jean Lamour, Nancy, where I work with Prof.
-      Benoit Appolaire and Prof. Maeva Cottura on **sharp-interface phase-field models for
-      discontinuous precipitation**.
-      <p>
-      My research has evolved across several scales of materials modelling. During my
-      postdoctoral work at the University of Waterloo with Prof. Conrard Feugmo, I developed
-      **phase-field crystal models for binary systems**, explicitly describing the evolution
-      of individual atomic density fields. During my PhD in Metallurgical Engineering and
-      Materials Science at IIT Bombay, I investigated the **coupling between dislocations and
-      phase transformations**, complemented by work on **phase-field dislocation dynamics and
-      discrete dislocation dynamics**, including developments within the NUMODIS framework at
-      Grenoble.
-      <p>
-      Together, these experiences have shaped my research around a common objective:
-      **developing physically grounded computational models that connect atomic-scale
-      mechanisms to the evolution of microstructure and material properties across larger 
-      length and time scales.**
 
+      <h2>From mechanical engineering to computational materials science</h2>
+
+      <p>
+        I am a computational materials scientist and mechanical engineer working at the
+        intersection of <strong>phase-field modelling, microstructure evolution, and
+        multiscale materials modelling</strong>. I am currently a CNRS postdoctoral
+        researcher in the Microstructures &amp; Stresses group at Institut Jean Lamour,
+        Nancy, where I work with Prof. Benoit Appolaire and Prof. Maeva Cottura on
+        <strong>sharp-interface phase-field models for discontinuous precipitation</strong>.
       </p>
-      <a class="btn btn-outline" href="{{ '/research/' | relative_url }}">Read the full research vision →</a>
+
+      <p>
+        My research has evolved across several scales of materials modelling. During my
+        postdoctoral work at the University of Waterloo with Prof. Conrard Feugmo, I
+        developed <strong>phase-field crystal models for binary systems</strong>,
+        explicitly describing the evolution of individual atomic density fields. During
+        my PhD in Metallurgical Engineering and Materials Science at IIT Bombay, I
+        investigated the <strong>coupling between dislocations and phase
+        transformations</strong>, complemented by work on
+        <strong>phase-field dislocation dynamics and discrete dislocation dynamics</strong>,
+        including developments within the NUMODIS framework at Grenoble.
+      </p>
+
+      <p>
+        Together, these experiences have shaped my research around a common objective:
+        <strong>developing physically grounded computational models that connect
+        atomic-scale mechanisms to the evolution of microstructure and material
+        properties across larger length and time scales.</strong>
+      </p>
+
+      <a class="btn btn-outline" href="{{ '/research/' | relative_url }}">
+        Read the full research vision →
+      </a>
     </div>
-    <div class="placeholder" style="aspect-ratio: 4/5;">
-      <div class="placeholder-tag">Placeholder</div>
-      Portrait photo<br>(replace with a current headshot)
+
+    <div class="about-photo">
+      <img
+        src="{{ '/assets/img/gallery/profile.jpg' | relative_url }}"
+        alt="Portrait of Arjun Varma"
+      >
     </div>
+
   </div>
 </section>
