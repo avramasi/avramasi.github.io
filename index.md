@@ -113,7 +113,7 @@ description: >-
 
     <div class="about-photo">
       <img
-        src="{{ '/assets/img/gallery/profile.jpg' | relative_url }}"
+        src="{{ '/assets/img/gallery/profile.jpeg' | relative_url }}"
         alt="Portrait of Arjun Varma"
       >
     </div>
